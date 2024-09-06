@@ -1,0 +1,130 @@
+body {
+    font-family: "poppins", sans-serif;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    width: 100%;
+    }
+
+    header{
+        background-image: url(img/5651978.png);
+        background-color: rgba(177, 176, 176, 0.856);
+        display:flex;
+        padding: 1.5rem ;
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        filter: drop-shadow(10px);
+        /* align-items: center; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+.navbar {
+    padding: 10px;
+    margin: 20px;
+}
+
+.nfai a{
+    color: white;
+    text-decoration: none;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+    section{
+        padding: 70px 60px;
+        background-color: rgba(150, 150, 150, 0.521);
+    }
+
+.container-1{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.hero-text {
+    padding: 5%;
+    text-align: center;
+}
+
+.Experience {
+    justify-content: center;
+    padding: 10%;
+    background-color: rgba(0, 255, 255, 0.315);
+    background-image: url(img/5651978.png);
+    box-shadow: 0 0 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.Experience-box {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.164);
+    text-align: center;
+}
+
+.in-box, p-1{
+    display: flex;
+    text-align: right;
+    padding: 10px;
+}
+
+.linklogo {
+    padding: 8px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.text2{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.personal {
+    margin-left: 2%;
+    font-weight: 200;
+    color: rgba(175, 19, 19, 0.692);
+}
+
+.nfai {
+    margin-left: 0%;
+}
+
+.skills {
+    background-image: url(img/5651978.png);
+    justify-content: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.skills-list {
+    padding: 10px;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.sosial {
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    gap: 5%;
+}
+
+.contact-box{
+    display: flex;
+    padding: 10px;
+}
