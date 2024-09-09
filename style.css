@@ -1,14 +1,19 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "poppins", sans-serif;
     align-items: center;
     height: 100vh;
     margin: 0px;
     width: 100%;
+    scroll-behavior: smooth;
     }
 
     header{
         background-image: url(img/5651978.png);
-        background-color: rgba(177, 176, 176, 0.856);
+        background-color: rgba(15, 164, 233, 0.384);
         display:flex;
         padding: 1.5rem ;
         background-repeat: no-repeat;
@@ -124,7 +129,63 @@ body {
     gap: 5%;
 }
 
-.contact-box{
-    display: flex;
+.contact h2{
+    align-items: center;
+    text-align: center;
+}
+.contact {
+    /* display: flex; */
     padding: 10px;
+    justify-content: center;
+    background-image: url(img/5651978.png);
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.contact h2{
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 520px; */
+}
+
+input {
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-image: url(img/3847af892f23dad643ab67c20a8534ab.gif);
+    width: 344px;
+    color: antiquewhite;
+}
+.text-form{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:550px) {
+    section .container-1{
+        display: flex;
+        flex-direction: column;
+    }   
+    .img-bawa {
+        position: relative;
+        right: 3rem;
+        }
+    section .Experience-box{
+            display: flex;
+            flex-direction: column;
+    }
+    .contact-text h2{
+        /* align-items: center; */
+        text-align: center;
+    }
+    section .contact{
+    
+    }
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/profil_logo_nfai-removebg-preview.png">
 </head>
 <body>
     <header>
@@ -15,45 +16,49 @@
         </div>
         <div class="navbar">
           <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#" >Skills</a>
-            <a href="#" >Experience</a>
-            <a href="#" >Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#skill" >Skills</a>
+            <a href="#Experience" >Experience</a>
+            <a href="#content" >Contact</a>
           </nav>
         </div>
       <!-- </div> -->
     </header>
-    <section class="hero">
+    <section class="hero" id="home">
       <h1></h1>
         <div class="container-1">
             <div class="hero-text">
                 <h1>About Me</h1>
-                <h4>Hi there!!. My name is Ohyunbin, you can call me Hyun or bin what ever do you want to call me. I'm a Software Developer base in Indonesia and am a Student in IDN Backpaker School Sentul. I am 17 years old, I live in Tangerang. I am of South Korean descent.</h4>
+                <h4>Hi there!!. My name is Ohyunbin, you can call me Hyun or bin what ever do you want to call me. I'm a Software Developer base in Indonesia and am a Student in IDN Backpacker School Sentul. I am 17 years old, I live in Tangerang. I am of South Korean descent.</h4>
             </div>
             <div class="hero-image">
                 <img src="img/WhatsApp_Image_2024-07-19_at_14.05.10_95a10f9e-removebg-preview.png" alt="hyunbin" width="400px">
             </div>
         </div>
-        <section class="skills">
+        <section class="skills" id="skill">
             <h2>My Skills</h2>
             <div class="skills-list">
-                <img src="img/css3-logo-black-and-white-removebg-preview.png" alt="css" width="170px">
-                <img src="img/png-clipart-html-5-logo-html5-grey-black-icons-logos-emojis-tech-companies-removebg-preview.png" alt="html" width="300px">
+              <div class="img-skill">
+                <img class="img-atas" src="img/css3-logo-black-and-white-removebg-preview.png" alt="css" width="170px">
+                <img class="img-bawa" src="img/png-clipart-html-5-logo-html5-grey-black-icons-logos-emojis-tech-companies-removebg-preview.png" alt="html" width="300px">
+              </div>
+              <div class="text-skill">
                 <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vero magnam voluptatem in impedit aspernatur maxime nisi ea nesciunt. Deleniti, ullam delectus. Consequuntur fuga quibusdam voluptatibus ipsam minima perspiciatis repellat aliquam inventore voluptates! Numquam, voluptatum officiis, laboriosam exercitationem nihil adipisci quia ea velit architecto cupiditate distinctio pariatur et veritatis dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, error. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In veniam inventore, praesentium incidunt omnis amet voluptatum magnam quidem esse tenetur repellat ipsa ipsam enim eius odio placeat, nihil obcaecati eum?</h1>
-            </div>
+              </div>
+              </div>
         </section>
 
-        <section class="Experience">
+        <section class="Experience" id="Experience">
             <h2>My Experience</h2>
             <div class="experience-list">
                 <div class="Experience-box">
-                    <img src="img/profil_logo_nfai-removebg-preview.png" alt="NFAI" width="300px">
+                    <img src="img/NFAI_logom-removebg-preview.png" alt="NFAI" width="300px">
                     <p>My Experience is i dezain logo, Ex; studio logo, company logo and game logo. NFAI logo is my First logo company a make, not only that. i have other logos that i make. The first time I made a logo, was a collaboration of the golo group called NQR and NK. NQR NK is my first member logo, since 2019. In 2020 I made an Admin logo, where 1 Admin logo has 4 member logos. such as NK, NQR, NNR, and XXR. These 4 logo names are member logos and are included in 1 admin logo called UnikC, to make it easier to call or name the logo. until now in 2024. I managed to create 9 logos. 5 member logos, 2 company logos, and 2 admin logos.</p>
                 </div>
 
                 <div class="in-box">
                     <div class="Experience-box">
-                        <img src="img/Youtube_logo-removebg-preview.png" alt="NFAI" width="150px">
+                        <img src="img/Youtube_logo-removebg-preview.png" alt="youtube" width="150px">
                         <p-1>My Experience at youtube. i join youtube in 2018, i have experience for making some youtube channel. and know, i still making a youtube video in my Vlog IDN School.</p-1>
                     </div>
                 </div>
@@ -88,21 +93,29 @@
                 </div>
         </section>
     </section>
-    <section class="contact">
-      <h2>Contact Me</h2>
-      <form action="contact-box">
-        <label for="name">‖</label>
-        <input type="text" name="name" id="name" required placeholder="Full Name">
-        <br>
-        <label for="email">‖</label>
-        <input type="text" name="email" id="email" required placeholder="Email">
-        <br>
-        <label for="number">‖</label>
-        <input type="text" name="number" id="number" required placeholder="Phone Number">
-        <div>
-          <button>Send</button>
-        </div>
-      </form>
+    <section class="contact" id="content">
+      <div class="contact-text">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="text-form">
+        <p>let's talk together something exciting. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, enim autem? Iste hic sunt suscipit ex molestiae excepturi nemo assumenda!</p>
+      </div>
+      <div class="form">
+        <form action="contact-box">
+          <label for="name"></label>
+          <input type="text" name="name" id="name" required placeholder="Full Name">
+          <br>
+          <label for="email"></label>
+          <input type="text" name="email" id="email" required placeholder="Email">
+          <br>
+          <label for="number"></label>
+          <input type="text" name="number" id="number" required placeholder="Phone Number">
+          <div class="button">
+            <button>Send</button>
+          </div>
+        </form>
+      </div>
     </section>
 </body>
 
